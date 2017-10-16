@@ -10,12 +10,12 @@ public class MainView {
 		System.out.println("WELCOME TO OUR ONLINE BOOKSTORE");
 		System.out.println("1 view BOOKS");
 		System.out.println("2 search books");
-		System.out.println("3 Add Book To Cart");
+		System.out.println("3 Add Book To Wishlist");
 		System.out.println("4 view cart details");
 		System.out.println("5 Place Order");
 		System.out.println("6 Make Payment");
 		System.out.println("7 EXIT");
-		
+
 		System.out.println("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
 		System.out.println(" Enter an option");
 

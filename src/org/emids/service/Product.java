@@ -1,6 +1,5 @@
 package org.emids.service;
 
-
 public class Product {
 
 	public void viewProdact() {
