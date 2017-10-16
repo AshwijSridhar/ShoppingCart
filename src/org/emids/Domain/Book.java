@@ -2,13 +2,13 @@ package org.emids.Domain;
 
 public class Book {
 	private String bookName;
-	private String authoerName;
+	private String authorName;
 	private double price;
 	Book bookStore;
 
-	public Book(String bookName, String authoerName, double price) {
+	public Book(String bookName, String authorName, double price) {
 		this.bookName = bookName;
-		this.authoerName = authoerName;
+		this.authorName = authorName;
 		this.price = price;
 	}
 
@@ -21,7 +21,7 @@ public class Book {
 	}
 
 	public String getAuthoername() {
-		return this.authoerName;
+		return this.authorName;
 	}
 
 	public double getPrice() {
@@ -30,7 +30,7 @@ public class Book {
 
 	@Override
 	public String toString() {
-		return "Book [bookName=" + bookName + ", authoerName=" + authoerName + ", price=" + price + "]";
+		return "Book [bookName=" + bookName + ", authoerName=" + authorName + ", price=" + price + "]";
 	}
 
 }

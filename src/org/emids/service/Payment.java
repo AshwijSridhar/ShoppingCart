@@ -11,7 +11,7 @@ public class Payment {
 		if (value == 1 || value == 2) {
 			System.out.println("Thanks for Shopping");
 		} else if (value == 3)
-			System.err.println("BYE");
+			System.err.println("PAYMENT CANCELLED");
 		else {
 			System.out.println("Wrong Input");
 			makePayment();

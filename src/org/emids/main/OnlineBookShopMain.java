@@ -10,10 +10,10 @@ public class OnlineBookShopMain {
 
 	public static void main(String[] args) {
 
-		Book book1 = new Book("Artificial Intelligence", "James Goslings", 1800);
-		Book book2 = new Book("Cyber Security", "hugart", 700);
-		Book book3 = new Book("Data Science", "Morque", 450);
-		Book book4 = new Book("Python", "Regrno", 650);
+		Book book1 = new Book("Artificial Intelligence", "Peter Norvig", 1800);
+		Book book2 = new Book("Cyber Security", "David Kennedy", 700);
+		Book book3 = new Book("Data Science", "Joel Grus", 450);
+		Book book4 = new Book("Python", "Net Ninja", 650);
 		bookcontainer.add(book1);
 		bookcontainer.add(book2);
 		bookcontainer.add(book3);

@@ -6,7 +6,8 @@ public class MainView {
 	public static void option() {
 
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("\nMenu - Managing a List");
+		System.out.println("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
+		System.out.println("WELCOME TO OUR ONLINE BOOKSTORE");
 		System.out.println("1 view BOOKS");
 		System.out.println("2 search books");
 		System.out.println("3 Add Book To Cart");
@@ -14,7 +15,10 @@ public class MainView {
 		System.out.println("5 Place Order");
 		System.out.println("6 Make Payment");
 		System.out.println("7 EXIT");
+		
+		System.out.println("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
 		System.out.println(" Enter an option");
+
 		int menu = scanner.nextInt();
 		Product prodact = new Product();
 		switch (menu) {

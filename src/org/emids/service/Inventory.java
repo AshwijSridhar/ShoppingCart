@@ -11,42 +11,50 @@ public class Inventory {
 	Product product = new Product();
 
 	// static public Book searchBookName;
-	public void searchByBookName() {
+	public void searchByBookName() 
+	{
 		System.out.println("enter the book name you want");
 		String searchBookName = scanner.nextLine();
 		// System.out.println(OnlineBookShopMain.bookcontainer.size());
 		boolean isBookFound = false;
 
-		for (int i = 0; i < OnlineBookShopMain.bookcontainer.size(); i++) {
-			isBookFound = true;
+		for (int i = 0; i < OnlineBookShopMain.bookcontainer.size(); i++)
+		{
+			
 			Book bokkNameSearched = OnlineBookShopMain.bookcontainer.get(i);
 			if (searchBookName.equalsIgnoreCase(bokkNameSearched.getBookname()))
 			{
-				System.out.println("press 1 for add to cart");
+				isBookFound = true;
+				System.out.println("press 1 for add to cart, 2 to exit");
 				int value = scanner.nextInt();
-				if (value == 1) {
+				if (value == 1)
+				{
 					ShoppingCart.addShopingCart(bokkNameSearched);
 					System.out.println(bokkNameSearched + "is added to cart");
+					break;
+				}
+				if (value == 2)
+				{
 					break;
 				}
 			
 				
 			}
-			/*else  {
-				System.out.println("Book not found");
-				break;
-			}*/
-			
-			
 			
 		
-		
-		if (!isBookFound) {
-			System.out.println("book n ot found");
 			
 		}
-		// return searchBookName;
+		
 
+	/*{isBookFound = false;}
+		*/
+		
+		
+	
+		if (isBookFound == false) {
+			System.out.println("book not found");
+	
+		
 	
 	}
 	}
